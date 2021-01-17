@@ -11,8 +11,11 @@ It seems that they have mixed up more than just fruits eXclusively.
 Can you help us finding out what they added?
 ```
 We get two images in the challenge itself.\
-![image1](image1.bmp)\
+
+![image1](image1.bmp)
+
 ----
+
 ![image2](image2.bmp)
 
 
