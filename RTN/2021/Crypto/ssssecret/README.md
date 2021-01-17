@@ -45,7 +45,7 @@ Alright, first few results are about `Shamir's Secret Sharing` let's install it 
 sudo apt install ssss
 ```
 
-and try to fix the key by the combining it using this command.
+Ok, lets try to fix the key by using ssss combine with this command.
 
 ```bash
 ssss-combine -t 5 -D

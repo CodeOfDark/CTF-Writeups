@@ -20,10 +20,10 @@ Let's paste the given random text.
 
 ![Cipher](Cipher.png)
 
-Mhmmm, How can we know the number if they didn't gave it to us?
+Mhmmm, How can we know the number if they didn't give it to us?
 We can increase or decrease the number till we get the flag or let's be a bigbrain for a second Kappa
 
-In RTN Community there is 5 Staffs, so why not trying number 5?
+In RTN Community there is 5 staffs, so why not trying number 5?
 
 ![bigBrain](BikBrain.png)
 

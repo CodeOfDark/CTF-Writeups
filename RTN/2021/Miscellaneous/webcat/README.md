@@ -19,7 +19,7 @@ Looks like an interesting cat, let's open the given link and check what is insid
 As we can see this cat is not impressed by our browser.
 
 how can we make fix that? lets try another protocol maybe he doesn't like HTTP?
-Let's try way of connecting to it, maybe something like `nc` in `WSL`?
+Let's try another way of connecting to it, maybe something like `nc` in `WSL`?
 
 ```
 nc smoothie.rtn-team.cc 80
@@ -27,12 +27,17 @@ nc smoothie.rtn-team.cc 80
 
 ![NC](nc.png)
 
-Ok, we don't get that message again by the cat `Web cat is not impressed by your browser`,
+Ok, we didn't get that message again by the cat `Web cat is not impressed by your browser`,
 Looks like we are getting there.
 
 Now what are we gonna do? Let's look at the message once again.
 
-`Be aware, he has a bit of an ego. He is very picky with whom he interacts with, and has a relatively short attention span. Be sure to say "hello" first and let him get accustomed to you!`
+```
+Be aware, he has a bit of an ego.
+He is very picky with whom he interacts with, 
+and has a relatively short attention span. 
+Be sure to say "hello" first and let him get accustomed to you!
+```
 
 So the cat has a big EGO Kappa, we need to say hello.\
 Alright, let's give it a try.
@@ -76,7 +81,7 @@ static byte[] StringToByteArray(string hex)
            .ToArray();
 ```
 
-Output `0x9f3a1537` Let's give it a try!
+Let's get the output and write it there.
 
 ![SecondStage](secondStage.png)
 

@@ -22,7 +22,7 @@ let's open python in `cmd` and paste this code there so we can get our password.
 
 ![WSL](image.png)
 
-Okay hold on! we got another zip file and text file, and the message says `Then i compressed it again and again and again`, so in this challenge we probably gonna need to make a tool to unzip all these files.
+Okay hold on! we got another zip file and text file, and the message says `Then i compressed it again and again and again`, so in this challenge we probably gonna need to make a script to unzip all these files.
 
 Let's use python!
 
@@ -41,6 +41,6 @@ for i in range(0, 101):
 ```
 
 Now save the code and run it by using `python unzip.py`, after running it we get a lot of directories being created in our folder,
-After the script finish its job open the last folder and we can see inside `flag.txt`.
+After the script finish its job, open the last folder and we can see inside `flag.txt`.
 
 Open the flag and here you go! `RTN{z1p_th3_z1p_to_z1p_th3_z1p}`

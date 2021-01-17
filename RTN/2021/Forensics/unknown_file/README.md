@@ -9,9 +9,10 @@ I don't really know what to make of this file.
 I wish there was a way to visualize it,
 but all I see are blocks of data...
 ```
-
+**Let's get into it**
+==========
 There is a hint in the message as you can see `I wish there was a way to visualize it`,
-after reading this message i immediately thought of `GIMP` and gave it a chance! 
+after reading this message i immediately thought of using `GIMP` and gave it a chance! 
 
 Open `GIMP` and from `File -> Open` and Select `Row Image Data` also make sure to check on `Show all files`
 
