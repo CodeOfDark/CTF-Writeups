@@ -10,7 +10,7 @@ contains a prototype of our competitor's newest smoothie recipe.
 It seems that they have mixed up more than just fruits eXclusively.
 Can you help us finding out what they added?
 ```
-We get two images in the challenge itself.\
+We get two images in the challenge itself.
 
 ![image1](image1.bmp)
 
@@ -34,14 +34,16 @@ def mixitup():
 	firstImage = Image.open("image1.bmp")
 	secondImage = Image.open("image2.bmp")
 
-	resultImage = Image.new('RGB', (firstImage.size.width, firstImage.size.height))
+	(width, height) = firstImage.size
+
+	resultImage = Image.new( 'RGB', (width, height)) 
 	resultImagePixels = resultImage.load()
 
 	firstImagePixels = firstImage.load()
 	secondImagePixels = secondImage.load()
 
-	for width in range(0, firstImage.size.width):
-		for height in range(0, firstImage.size.height):
+	for width in range(0, width):
+		for height in range(0, height):
 			r = firstImagePixels[width, height][0] ^ secondImagePixels[width, height][0]
 			g = firstImagePixels[width, height][1] ^ secondImagePixels[width, height][1]
 			b = firstImagePixels[width, height][2] ^ secondImagePixels[width, height][2]
