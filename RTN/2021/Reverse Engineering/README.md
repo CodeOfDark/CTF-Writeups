@@ -8,3 +8,4 @@ In this directory contains my write-ups for RTN-2021 CTF.
 - [radish](radish)
 - [press](press)
 - [saturn](saturn)
+- [lambdastic](lambdastic)
