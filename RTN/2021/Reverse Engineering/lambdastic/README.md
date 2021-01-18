@@ -11,7 +11,7 @@ I heard you liked Monads.
 ==========
 
 This challenge is pretty awful because of the monads.
-Let's use monad to get the source out.
+Let's use `Dnspy` to get the source out.
 
 ![Lambda](lambda.png)
 
